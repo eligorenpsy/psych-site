@@ -12,7 +12,7 @@
   <!-- Open Graph -->
   <meta property="og:title" content="אלי גורן — פסיכולוג | נס ציונה" />
   <meta property="og:description" content="פסיכולוג בנס ציונה ורחובות — טיפול פסיכולוגי למבוגרים" />
-  <meta property="og:image" content="https://eligoren.co.il/hero.jpeg" />
+  <meta property="og:image" content="https://eligoren.co.il/og-image.jpeg" />
   <meta property="og:url" content="https://eligoren.co.il" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="he_IL" />
@@ -35,6 +35,15 @@
     "image": "https://eligoren.co.il/hero.jpeg",
     "areaServed": ["נס ציונה", "רחובות"]
   }
+  </script>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-649J7T5RRX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-649J7T5RRX');
   </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -477,16 +486,6 @@
     }
 
     /* ── PHOTO BREAK ── */
-    #photo-break {
-      min-height: 500px;
-      background-image: url('https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=1600&q=80');
-      background-size: cover;
-      background-position: center;
-      background-color: #6a8fa8;
-    }
-    @media (min-width: 900px) {
-      #photo-break { background-attachment: fixed; min-height: 560px; }
-    }
 
     /* ── CONTACT ── */
     #contact { background: var(--bg-about); padding: 80px 0; }
@@ -944,7 +943,6 @@
   </section>
 
   <!-- PHOTO BREAK -->
-  <section id="photo-break"></section>
 
   <!-- CONTACT -->
   <section id="contact">
