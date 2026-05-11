@@ -7,8 +7,8 @@
   <meta name="description" content="פסיכולוג בנס ציונה ורחובות — טיפול פסיכולוגי למבוגרים" />
   <link rel="canonical" href="https://eligoren.co.il" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32" />
-  <link rel="icon" href="favicon-192.png" type="image/png" sizes="192x192" />
+  <link rel="icon" href="favicon-32.png?v=3" type="image/png" sizes="32x32" />
+  <link rel="icon" href="favicon-192.png?v=3" type="image/png" sizes="192x192" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
   <!-- Open Graph -->
@@ -632,45 +632,7 @@
     }
     footer a:hover { color: white; }
 
-    /* ── APPROACH ── */
-    #approach { background: var(--bg-hero); padding: 80px 0; scroll-margin-top: 56px; }
-    .approach-inner { max-width: 720px; }
-    .approach-inner .section-label { margin-bottom: 28px; }
-    .approach-statement {
-      font-family: var(--font-body);
-      font-size: clamp(1rem, 1.5vw, 1.1rem);
-      font-weight: 400;
-      color: var(--text);
-      line-height: 2.05;
-      margin-bottom: 48px;
-    }
-    .approach-sep {
-      border: none;
-      border-top: 1px solid rgba(0,0,0,0.09);
-      margin: 0 0 40px;
-    }
-    .approach-methods {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 32px;
-    }
-    .approach-method-name {
-      font-family: var(--font-heading);
-      font-size: 0.95rem;
-      font-weight: 700;
-      color: var(--text);
-      letter-spacing: -0.01em;
-      margin-bottom: 10px;
-    }
-    .approach-method-desc {
-      font-family: var(--font-body);
-      font-size: 0.92rem;
-      font-weight: 300;
-      color: var(--text-secondary);
-      line-height: 1.9;
-    }
-
-    /* ── TABLET 600px+ ── */
+/* ── TABLET 600px+ ── */
     @media (min-width: 600px) {
       /* Treatment: switch from carousel to 2-col grid */
       .treatment-grid {
@@ -731,13 +693,7 @@
       .treatment-grid { grid-template-columns: repeat(3, 1fr); }
       .treatment-header { margin-bottom: 64px; }
 
-      #approach { padding: 120px 0; }
-      .approach-inner { max-width: 720px; }
-      .approach-methods { grid-template-columns: 1fr 1fr; gap: 0; }
-      .approach-method:last-child { padding-left: 48px; border-left: 1px solid rgba(0,0,0,0.09); }
-      .approach-method:first-child { padding-right: 48px; }
-
-      #how { padding: 120px 0; }
+#how { padding: 120px 0; }
       .how-header { margin-bottom: 64px; }
       .step-content p { font-size: 1rem; }
 
