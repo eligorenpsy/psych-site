@@ -330,7 +330,7 @@
       color: var(--text);
       line-height: 1.2;
       letter-spacing: -0.025em;
-      margin-bottom: 32px;
+      margin-bottom: 44px;
       text-align: right;
     }
     .about-headline .word-psych { color: #1a1a1f; font-weight: 800; }
@@ -342,9 +342,10 @@
       color: var(--text);
       line-height: 2.1;
       text-align: right;
-      margin-bottom: 20px;
+      margin-bottom: 32px;
     }
     .about-body-text:last-of-type { margin-bottom: 0; }
+
 
     .about-credentials {
       margin-top: auto;
@@ -629,6 +630,44 @@
     }
     footer a:hover { color: white; }
 
+    /* ── APPROACH ── */
+    #approach { background: var(--bg-hero); padding: 80px 0; scroll-margin-top: 56px; }
+    .approach-inner { max-width: 720px; }
+    .approach-inner .section-label { margin-bottom: 28px; }
+    .approach-statement {
+      font-family: var(--font-body);
+      font-size: clamp(1rem, 1.5vw, 1.1rem);
+      font-weight: 400;
+      color: var(--text);
+      line-height: 2.05;
+      margin-bottom: 48px;
+    }
+    .approach-sep {
+      border: none;
+      border-top: 1px solid rgba(0,0,0,0.09);
+      margin: 0 0 40px;
+    }
+    .approach-methods {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+    .approach-method-name {
+      font-family: var(--font-heading);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+    .approach-method-desc {
+      font-family: var(--font-body);
+      font-size: 0.92rem;
+      font-weight: 300;
+      color: var(--text-secondary);
+      line-height: 1.9;
+    }
+
     /* ── TABLET 600px+ ── */
     @media (min-width: 600px) {
       /* Treatment: switch from carousel to 2-col grid */
@@ -689,6 +728,12 @@
       #treatment { padding: 120px 0; }
       .treatment-grid { grid-template-columns: repeat(3, 1fr); }
       .treatment-header { margin-bottom: 64px; }
+
+      #approach { padding: 120px 0; }
+      .approach-inner { max-width: 720px; }
+      .approach-methods { grid-template-columns: 1fr 1fr; gap: 0; }
+      .approach-method:last-child { padding-left: 48px; border-left: 1px solid rgba(0,0,0,0.09); }
+      .approach-method:first-child { padding-right: 48px; }
 
       #how { padding: 120px 0; }
       .how-header { margin-bottom: 64px; }
@@ -786,7 +831,10 @@
             אני אלי גורן,<br /><span class="word-psych">פסיכולוג.</span>
           </h2>
           <p class="about-body-text">
-            המטרה שלי בטיפול היא לייצר עבורך מקום בטוח ונוח, שבו אפשר לדבר על הכל בפתיחות ובלי שיפוטיות. יחד נוכל להבין טוב יותר מה עובר עליך, למצוא את הדרך להרגיש הקלה ולהמשיך קדימה.
+            המטרה שלי בטיפול היא לייצר עבורך מרחב בטוח ונוח שבו אפשר לדבר על הכל בפתיחות וללא שיפוטיות. אני מאמין ששינוי מתאפשר בזכות קשר טיפולי המבוסס על אמפתיה, הקשבה וכבוד עמוק לחוויה האישית שלך.
+          </p>
+          <p class="about-body-text">
+            יחד נוכל להבין טוב יותר מה עובר עליך ולמצוא את הדרך להקלה.
           </p>
         </div>
         <div class="about-credentials">
@@ -926,21 +974,21 @@
         <div class="step reveal">
           <div class="step-num">01</div>
           <div class="step-content">
-            <h3>שיחת היכרות טלפונית</h3>
-            <p>התהליך מתחיל בשיחת טלפון קצרה של כ-15 דקות, בה נוכל להכיר קצת ולראות איך אוכל לעזור.</p>
+            <h3>שיחת היכרות</h3>
+            <p>נתחיל בשיחת טלפון קצרה של כ-15 דקות, שבה אשמע על מה שמביא אותך לטיפול ונחליט יחד על הצעד הבא.</p>
           </div>
         </div>
         <div class="step reveal" style="transition-delay:0.15s">
           <div class="step-num">02</div>
           <div class="step-content">
-            <h3>פגישת היכרות ראשונית</h3>
-            <p>לאחר השיחה נקבע פגישת היכרות שבה נדבר על מה שמביא אותך לטיפול ונבין יחד מה אתה צריך.</p>
+            <h3>פגישות ראשונות</h3>
+            <p>הפגישות הראשונות, לרוב שתיים עד שלוש, מוקדשות להיכרות. אשמע על הרקע שלך ועל מה שמביא אותך לטיפול, ונבין יחד מה אתה צריך.</p>
           </div>
         </div>
         <div class="step reveal" style="transition-delay:0.3s">
           <div class="step-num">03</div>
           <div class="step-content">
-            <h3>טיפול שבועי</h3>
+            <h3>הטיפול</h3>
             <p>הפגישות הן שבועיות ונמשכות 50 דקות, בקליניקה בנס ציונה או אונליין — לפי מה שנוח לך.</p>
           </div>
         </div>
