@@ -415,15 +415,14 @@
     }
     .treatment-card:last-child { margin-left: calc(22% - 14px); }
 
-    .treatment-card-icon {
-      width: 44px; height: 44px;
-      border-radius: 12px;
-      background: rgba(46,109,164,0.1);
-      margin-bottom: 16px;
-      display: flex; align-items: center; justify-content: center;
-      flex-shrink: 0;
+    .treatment-mark {
+      display: block;
+      width: 28px;
+      height: 2px;
+      background: var(--accent);
+      margin-bottom: 18px;
+      border-radius: 1px;
     }
-    .treatment-card-icon svg { display: block; }
 
     .treatment-card h3 {
       font-family: var(--font-heading);
@@ -831,88 +830,49 @@
       </div>
       <div class="treatment-grid">
         <div class="treatment-card">
-          <div class="treatment-card-icon" style="background:linear-gradient(135deg,#FF8A80,#E53935)">
-            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M19 16.9A5 5 0 0018 7h-1.26A8 8 0 104 15.25"/><polyline points="13 11 11 15 14 15 12 19"/>
-            </svg>
-          </div>
+          <span class="treatment-mark"></span>
           <h3>חוסר שקט ודאגה</h3>
-          <p>כשהמחשבות לא נחות והגוף בכוננות מתמדת. ליווי בחרדה ותחושת לחץ.</p>
+          <p>כשהמחשבות לא מרפות, הגוף בכוננות ואי-שקט הפך לחלק קבוע מהיומיום.</p>
         </div>
         <div class="treatment-card">
-          <div class="treatment-card-icon" style="background:linear-gradient(135deg,#90CAF9,#1565C0)">
-            <svg aria-hidden="true" width="26" height="26" viewBox="2 4 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M8 20c-2.2 0-4-1.8-4-4 0-1.9 1.3-3.5 3.1-3.9C7.4 9.8 9.5 8 12 8c1.5 0 2.8.6 3.8 1.5C16.5 8.6 17.7 8 19 8c2.8 0 5 2.2 5 5 0 .2 0 .4-.1.6C25.2 14.1 26 15.4 26 17c0 1.7-1.3 3-3 3H8z" fill="white" fill-opacity="0.95"/>
-              <ellipse cx="10" cy="24" rx="1.1" ry="1.5" fill="white" fill-opacity="0.85"/>
-              <ellipse cx="15" cy="24" rx="1.1" ry="1.5" fill="white" fill-opacity="0.85"/>
-              <ellipse cx="20" cy="24" rx="1.1" ry="1.5" fill="white" fill-opacity="0.85"/>
-            </svg>
-          </div>
+          <span class="treatment-mark"></span>
           <h3>עצבות וריקנות</h3>
-          <p>כשקשה לקום בבוקר, הכל מרגיש כבד ואין מוטיבציה. ליווי בדיכאון ותחושות של חוסר עניין.</p>
+          <p>כשקשה לקום בבוקר, הכל מרגיש כבד, ומה שפעם עניין כבר לא מדבר אליך.</p>
         </div>
         <div class="treatment-card">
-          <div class="treatment-card-icon" style="background:linear-gradient(135deg,#FFD180,#FF6D00)">
-            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-              <rect x="2" y="7" width="16" height="10" rx="2"/><path d="M18 10h2a1 1 0 011 1v2a1 1 0 01-1 1h-2"/><line x1="6" y1="11" x2="6" y2="13"/>
-            </svg>
-          </div>
-          <h3>עומס רגשי ושחיקה</h3>
-          <p>טיפול בתחושות של עייפות נפשית, שחיקה והצפה רגשית.</p>
+          <span class="treatment-mark"></span>
+          <h3>עומס ושחיקה</h3>
+          <p>כשנתת כל כך הרבה — לעבודה, למשפחה, לאחרים — עד שאיבדת קשר עם מה שאתה צריך בעצמך.</p>
         </div>
         <div class="treatment-card">
-          <div class="treatment-card-icon" style="background:linear-gradient(135deg,#EA80FC,#7B1FA2)">
-            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 014-4h14M7 23l-4-4 4-4"/><path d="M21 13v2a4 4 0 01-4 4H3"/>
-            </svg>
-          </div>
+          <span class="treatment-mark"></span>
           <h3>שינוי ומשברי חיים</h3>
-          <p>תמיכה בתקופות מעבר, שינויים גדולים, פרידות, אובדן ומשברי זהות.</p>
+          <p>פרידה, מעבר, אובדן, שינוי זהות — גם משברים שאין להם שם מדויק.</p>
         </div>
         <div class="treatment-card">
-          <div class="treatment-card-icon" style="background:linear-gradient(135deg,#FF80AB,#C2185B)">
-            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
-            </svg>
-          </div>
+          <span class="treatment-mark"></span>
           <h3>קשיים בזוגיות ויחסים</h3>
-          <p>עבודה על דפוסים בקשרים בינאישיים ובמערכות יחסים.</p>
+          <p>דפוסים שחוזרים על עצמם, קושי בקרבה, מריבות שאינן פותרות כלום.</p>
         </div>
         <div class="treatment-card">
-          <div class="treatment-card-icon" style="background:linear-gradient(135deg,#82B1FF,#1565C0)">
-            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
-            </svg>
-          </div>
+          <span class="treatment-mark"></span>
           <h3>מצבים רפואיים מורכבים</h3>
-          <p>תמיכה נפשית בהתמודדות עם מחלה ומצבים רפואיים.</p>
+          <p>כשמחלה או מצב גופני משנים גם את הנפש — ואין מי שמחזיק את שניהם יחד.</p>
         </div>
         <div class="treatment-card">
-          <div class="treatment-card-icon" style="background:linear-gradient(135deg,#64FFDA,#00695C)">
-            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="8" r="4"/><path d="M12 14c-5 0-8 2-8 4v1h16v-1c0-2-3-4-8-4z"/>
-            </svg>
-          </div>
+          <span class="treatment-mark"></span>
           <h3>זהות וערך עצמי</h3>
-          <p>חקירה של שאלות זהות, ביטחון עצמי ומשמעות אישית.</p>
+          <p>שאלות של מי אני, מה אני שווה, ומה אני בעצם רוצה מהחיים.</p>
         </div>
         <div class="treatment-card">
-          <div class="treatment-card-icon" style="background:linear-gradient(135deg,#69F0AE,#2E7D32)">
-            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 22v-7"/><path d="M12 15C10 12 6 12 6 8c0 0 5 0 6 7z"/><path d="M12 12C14 9 18 9 18 5c0 0-5 0-6 7z"/>
-            </svg>
-          </div>
+          <span class="treatment-mark"></span>
           <h3>צמיחה אישית</h3>
-          <p>לאנשים שבאים לטיפול לא ממשבר, אלא מרצון להעמיק את ההיכרות עם עצמם ולהתפתח.</p>
+          <p>לא ממשבר — אלא מרצון אמיתי להכיר את עצמך יותר לעומק ולחיות חיים שמרגישים שלך.</p>
         </div>
         <div class="treatment-card">
-          <div class="treatment-card-icon" style="background:linear-gradient(135deg,#B0BEC5,#546E7A)">
-            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
-            </svg>
-          </div>
+          <span class="treatment-mark"></span>
           <h3>ועוד</h3>
-          <p>פתוח לכל נושא שמעסיק אותך — אין נושא קטן מדי.</p>
+          <p>אין נושא קטן מדי. אם משהו מעסיק אותך — זה מספיק סיבה לדבר.</p>
         </div>
       </div>
     </div>
